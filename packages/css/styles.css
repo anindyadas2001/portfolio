@@ -184,6 +184,19 @@ img {
   background-color: var(--body-color);
 }
 
+.maingrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerthis {
+  align-self: center;
+  justify-self: center;
+}
+
 /*==================== NAV ====================*/
 .nav {
   max-width: 968px;
